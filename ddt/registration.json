@@ -1,0 +1,41 @@
+[
+    {
+        "url":"https://demoqa.com/automation-practice-form",
+        "name":"madhushweta",
+        "lastname":"dhandargi",
+        "email":"drani.08@gmail.com",
+        "gender":"female",
+        "mob":"9900034521",
+        "year":"2008",
+        "month":"march",
+        "subject":"A",
+        "hobbies":["Reading","Music"],
+        "picturepath":"C:/Users/Lenovo/OneDrive/Documents/introduction to playwright.rtf",
+        "address":"ranebennur",
+        "state":"karnataka",
+        "city":"banglore"
+
+
+    },
+
+
+
+    {
+        "url":"https://demoqa.com/automation-practice-form",
+        "name":"sachin",
+        "lastname":"doddagoudar",
+        "email":"sachin555@gmail.com",
+        "gender":"male",
+        "mob":"8792666100",
+        "year":"2005",
+        "month":"july",
+        "subject":"B",
+        "hobbies":["Reading","Music"],
+        "picturepath":"C:/Users/Lenovo/neDrive/Documents/introduction to playwright.rtf",
+        "address":"ranebennur",
+        "state":"karnataka",
+        "city":"banglore"
+
+
+    }
+]

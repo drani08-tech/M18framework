@@ -14,7 +14,7 @@ test("test1",async({page})=>
     
 });
 
-test.only("test2",async({page})=>
+test("test2",async({page})=>
 {
     await page.goto("https://demoapps.qspiders.com/ui?scenario=1");
     await page.locator('#name').waitFor();

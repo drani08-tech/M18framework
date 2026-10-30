@@ -1,7 +1,7 @@
 //Amazon-Samsangphones get price of 1st phone
 
 import {test} from '@playwright/test'
-test.only("amazon_samsang", async({page})=>
+test("amazon_samsang", async({page})=>
 {
     await page.goto("https://www.amazon.in/");
     await page.locator('//*[@id="twotabsearchtextbox"]').fill("samsang phones");
@@ -43,7 +43,7 @@ test.only("amazon_samsang", async({page})=>
 });*/
 
 //ICC Rankings - David Warner rating 
-test.only("icc_ranking",async({page})=>
+test("icc_ranking",async({page})=>
 {
     await page.goto("https://www.icc-cricket.com/");
     await page.locator('').click();

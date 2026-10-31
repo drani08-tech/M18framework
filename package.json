@@ -7,10 +7,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
     "@playwright/test": "^1.62.1",
-    "@types/node": "^26.6.4"
+    "@types/node": "^26.6.6"
   },
   "dependencies": {
     "exceljs": "^4.4.0"

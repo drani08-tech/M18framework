@@ -9,9 +9,9 @@ test("multiple tabs",async({browser})=>
     await page.locator('//button[@class="XFwMiH" and @type="submit"]/*[name()="svg"]').click();
 
     let [page2]= await Promise.all([page.waitForEvent("popup"),
-        page.locator('(//img[@class="MZeksS"])').click(); ])
+        page.locator('(//img[@class="MZeksS"])').click() ])
 
-        await page2.locator()
+       /* await page2.locator()*/
 
     
 })

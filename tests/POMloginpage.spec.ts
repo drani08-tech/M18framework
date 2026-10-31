@@ -1,5 +1,6 @@
 import {test} from '@playwright/test'
 import Login  from '../pageobjectmodel/loginpage.page'
+import value from "../ddt/forapplication.json"
 
 test("POM login page",async({page})=>
 {
@@ -13,10 +14,11 @@ test("POM login page",async({page})=>
 
 test.only("pom method",async({page})=>
 {
-    for(let testdata of Login.valid)
+    for(let testdata of value)
     {
         let Loginpage = new Login(page)
         await Loginpage.loginMethod(testdata.url,testdata.username,testdata.password);
         
 
+    }
 })

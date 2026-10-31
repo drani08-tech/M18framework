@@ -1,10 +1,12 @@
 import {test} from '@playwright/test';
 import  excel from 'exceljs'
-import   path from 'path'
+import path from 'path'
+
+
 
 test("read excel",async()=>
 {
-  let workbook = new ExcelJS.Workbook();
+  let workbook = new excel.Workbook();
   await workbook.xlsx.readFile(path.join(__dirname,'..','ddt','excel.xlsx'));
   
   let sheet = workbook.getWorksheet(1);
@@ -31,8 +33,8 @@ test("read excel",async()=>
 });
 
 
-test.only("multiple_values",async()=>
+test("multiple_values",async()=>
 {
-  let book = await excel.Workbook();
-  await book.xlsx.readFile(path.join(__dirname,"ddt\excel.xlsx"
-    })
+  let book = new excel.Workbook();
+  await book.xlsx.readFile(path.join(__dirname,"ddt\excel.xlsx"))
+  })

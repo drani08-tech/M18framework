@@ -4,8 +4,8 @@ test("auto_retrying assertion",async({page})=>
 {
    await page.goto("https://demoapps.qspiders.com/ui?scenario=1");
    await expect(page).toHaveURL("https://demoapps.qspiders.com/ui?scenario=1");
-   await expect(page).toHaveTitle("//*[@id="demoUI"]/main/section/article[1]/aside/article/aside[2]/div/div/h1");
-   await page.getByPlaceholder("//*[@id="name"]").fill("user");
+   await expect(page).toHaveTitle("//*[@id='demoUI']/main/section/article[1]/aside/article/aside[2]/div/div/h1");
+   await page.getByPlaceholder("//*[@id='name']").fill("user");
 
 });
 

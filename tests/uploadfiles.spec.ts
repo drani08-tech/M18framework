@@ -14,6 +14,5 @@ test("upload_files",async({page})=>
   
 });
 
-/*rest of two approachs il not learn 
 
     

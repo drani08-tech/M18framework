@@ -1,5 +1,5 @@
 import {test} from '@playwright/test'
-import data from "../ddt/forapplication.json"
+// import data from "../ddt/forapplication.json" with {type:'json'}
 
 test("for single appication",async({page})=>
 {

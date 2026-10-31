@@ -119,9 +119,9 @@ class Register
             {
                 await this.CBoxReading.click()
             }
-            else if(String(hobby==="Music")
+            else if((hobby==="Music"))
             {
-                await this.CBoxMusic.click()
+                await this.CBoxMusic.click();
             }
         }
     }

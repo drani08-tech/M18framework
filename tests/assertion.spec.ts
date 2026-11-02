@@ -9,6 +9,7 @@ test("auto_retrying assertion",async({page})=>
 
 });
 
+//example for non_retrying_assertion 
 test.only("Non_retrying_assertion",async({page})=>
 {
     await page.goto("https://demoapps.qspiders.com/ui?scenario=1");

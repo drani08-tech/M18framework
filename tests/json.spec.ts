@@ -1,5 +1,5 @@
 import {test} from '@playwright/test'
-import d from "../ddt/data.json"
+import d from "../ddt/data.json" with {type:"json"}
 
 /*test("single data",async()=>
 {

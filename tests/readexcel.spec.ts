@@ -37,4 +37,4 @@ test("multiple_values",async()=>
 {
   let book = new excel.Workbook();
   await book.xlsx.readFile(path.join(__dirname,"ddt\excel.xlsx"))
-  })
+  });

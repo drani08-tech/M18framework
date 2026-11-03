@@ -5,12 +5,12 @@ import * as path from 'path'
 test("writing data in excel",async()=>
 {
     let book = new exceljs.Workbook();
-    await book.xlsx.readFile(__dirname,"../ddt/excel2.xlsx");
+    await path.join(__dirname,"../ddt/excel2.xlsx");
 
-    let sheet = await book.getWorkbook("sheet1");
+    let sheet =  book.getWorksheet("sheet1");
     if(!sheet)
     {
-        sheet = await book.addWorksheet("sheet1");
+        sheet = book.addWorksheet("sheet1");
 
     }
 
